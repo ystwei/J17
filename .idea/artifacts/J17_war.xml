@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="J17:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="com.weikun.war">
+      <element id="artifact" artifact-name="J17:war exploded" />
+    </root>
+  </artifact>
+</component>
