@@ -41,6 +41,7 @@ public class FmControl extends HttpServlet {
         PrintWriter out=resp.getWriter();
         Map map =new HashMap();
         map.put("score",900);
+        map.put("msg","<b>我是哈尔滨人</b>");
 
         map.put("users",Arrays.asList(new User("Mike","999"),new User("Jack","888")));
         try {
